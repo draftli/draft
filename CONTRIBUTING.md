@@ -20,7 +20,7 @@ Example for an issue with the website:
 
 * Tell us what you did, what happened and what should have happened instead.
 * Give the webpage address (URL) at which you encountered the issue and explain how we could reproduce the issue.
-* Give the version of the website (copy-paste it from the website's footer, it looks like this: `v0.1.2/a51dd1f`), the operating system and version you're using, the web browser and version you're using.
+* Give the version of the website (copy-paste it from the website footer, it looks like this: `v0.1.2/a51dd1f`), the operating system and version you're using, the web browser and version you're using.
 * If you have any idea how we could fix it, please tell us.
 
 ### I Want a Feature
@@ -42,20 +42,29 @@ Pull Requests are most welcome, even if you are a beginner. We will do our best 
 * Work on branches and submit PRs. Nobody commits directly to master.
 * We care a lot about testing. Good PRs come with good tests.
 * 100% documentation. Everything is documented.
-* Browser support: TBD
 
-#### Elixir
+#### Back End
+
+Elixir & PostgreSQL
+
+##### Elixir
 
 * [Dogma](https://github.com/lpil/dogma) is the linter used to enforce code style consistency. We also use [Credo](https://github.com/rrrene/credo) for static code analysis, but its usage is not enforced here.
 * [ExUnit](http://elixir-lang.org/docs/stable/ex_unit/ExUnit.html) is the unit testing framework of choice.
 * [Coverex](https://github.com/alfert/coverex) is used for coverage reports.
 * Travis runs all of these.
 
-#### SASS
+#### Front End
+
+HTML5 & SASS, JavaScript.
+
+Browser support: IE11+
+
+##### SASS
 
 * [Style guide](https://github.com/airbnb/css#sass)
 
-#### JavaScript
+##### JavaScript
 
-* ES2015 transpiled to ES5.
+* ES6+ transpiled to ES5.
 * [Style guide](https://github.com/airbnb/javascript/#airbnb-javascript-style-guide-) enforced by eslint.

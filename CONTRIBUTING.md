@@ -52,6 +52,7 @@ Elixir & PostgreSQL
 * [Dogma](https://github.com/lpil/dogma) is the linter used to enforce code style consistency. We also use [Credo](https://github.com/rrrene/credo) for static code analysis, but its usage is not enforced here.
 * [ExUnit](http://elixir-lang.org/docs/stable/ex_unit/ExUnit.html) is the unit testing framework of choice.
 * [Coverex](https://github.com/alfert/coverex) is used for coverage reports.
+* Typespecs and [Dialyxir](https://github.com/jeremyjh/dialyxir) when it makes sense (eg. in a lib: generally yes, in a Phoenix controller: generally no).
 * Travis runs all of these.
 
 #### Front End

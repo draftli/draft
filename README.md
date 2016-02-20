@@ -128,7 +128,7 @@ A sane default would be to use whatever is on the feed.
 * interests (opt-out): the tags/categories you're subscribed to.
 * reading history (opt-out): we log what you read and suggest things based on what people who read the same stuff as you do also read.
 
-* Nothing new here, except we have no intent of actually tracking you. Wanna use a pseudonym instead of your real name? Sure! Don't feel comfortable reading articles using the same account as the one you use to publish content? We don't care! Still unsure and prefer to opt-out from the recommendation system? No problem, we'll stop and delete what "learned"!
+* Nothing new here, except we have no intent of actually tracking you. Wanna use a pseudonym instead of your real name? Sure! Don't feel comfortable reading articles using the same account as the one you use to publish content? We don't care! Still unsure and prefer to opt-out from the recommendation system? No problem, we'll stop and delete what we "learned"!
 
 #### be able to follow people
 
@@ -148,6 +148,7 @@ A sane default would be to use whatever is on the feed.
 * be free — as in 'free speech'.
 * be an open and welcoming technical community.
 * do its best with regards to web accessibility.
+* enforce the "[six fixes](http://idlewords.com/talks/what_happens_next_will_amaze_you.htm#six_fixes)" guidelines.
 * use good software engineering practices such as testing, CI, ...
 * have a community-driven product approach, which means that users take part to most product decisions by both *submitting suggestions/feature requests and *consultation process typically in the form of regular surveys about the direction to take, features priority, etc. The technical team has the last word but they pledge to contribute to the best of their ability to the project *for the community, *for the ideal goal of the project, *to create quality software (i.e. sometimes prioritizing refactoring over feature development).
 

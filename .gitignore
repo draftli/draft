@@ -1,0 +1,10 @@
+/_build
+/cover
+/deps
+/node_modules
+/bower_components
+
+erl_crash.dump
+*.ez
+*.log
+.DS_Store
